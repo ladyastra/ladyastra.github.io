@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- 
+        Author: Roxette Laude
+        Date: December 11, 2023
+        Assignment: Final Profile
+
+        Online Profile (schedule)
+        Page: schedule.html
+     -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <title>RL</title>
+    <!-- CSS embedded styling -->
+    <link href="styles.css" rel="stylesheet" media="screen">
+    <link href="responsivestyles.css" rel="stylesheet" media="screen and (max-width: 1024px)">
+</head>
+
+<body>
+    <header> RL </header>
+    <!-- BIGGEST FONT -->
+
+    <div class="custom2">
+        <nav>
+            <h1> CIS 130 </h1>
+            <a href="index.html">home</a>
+            <a href="schedule.html">schedule</a>
+            <a href="info.html">info</a>
+        </nav>
+        <!-- NAV BOTTOM BIG PADDING -->
+
+        <!-- ADD A TABLE FOR YOUR AVAILABILITY -->
+        <table class="infotxt2">
+            <col span="4" style="background-color:lightsalmon;">
+            <col span="3" style="background-color:tomato;">
+            <tr>
+                <th>sunday</th>
+                <th>monday</th>
+                <th>tuesday</th>
+                <th>wednesday</th>
+                <th>thursday</th>
+                <th>friday</th>
+                <th>saturday</th>
+            </tr>
+            <tr>
+                <td> close </td>
+                <td> close </td>
+                <td> close </td>
+                <td> close </td>
+                <td> 9AM-3PM </td>
+                <td> 9AM-3PM </td>
+                <td> 9AM-3PM </td>
+            </tr>
+        </table>
+
+
+        <!-- add form for contact info and reservation req submission -->
+        <form method="GET" action="thankyou.html" class="infotxt1">
+            <fieldset>
+
+                <legend> contact information </legend>
+                <!-- class ID for submissions??? -->
+                <label for="fName">
+                    first name:
+                    <input autofocus type="text" name="fName" id="fName" required placeholder="first name">
+                </label> <br>
+
+                <label for="lName">
+                    last name:
+                    <input type="text" name="lName" id="lName" required placeholder="last name">
+                </label>
+
+                <label for="cellNumber">
+                    cell:
+                    <input type="text" name="cellNumber" id="cellNumber" required placeholder="cell">
+                </label>
+
+                <label for="email">
+                    e-mail:
+                    <input type="text" name="email" id="email" required placeholder="email">
+                </label>
+
+            </fieldset>
+            <fieldset>
+                <legend>
+                    reservations
+                </legend>
+                <select>
+                    <option value="january">january</option>
+                    <option value="february">february</option>
+                    <option value="march">march
+                    </option>
+                    <option value="april">april</option>
+                    <option value="may">may</option>
+                    <option value="june">june</option>
+                    <option value="july">july</option>
+                    <option value="august">august</option>
+                    <option value="september">september</option>
+                    <option value="october">october</option>
+                    <option value="november">november</option>
+                    <option value="december">december</option>
+                </select>
+
+                <input class="number" type="number" min="1" max="31">
+
+                <input class="radio" type="radio" value="thursday">thursday
+
+                <input class="radio" type="radio" value="friday">friday
+
+                <input class="radio" type="radio" value="saturday">saturday
+
+                <select>
+                    <option value="time1">9AM-10AM</option>
+                    <option value="time2">10AM-11AM</option>
+                    <option value="time3">11AM-12PM</option>
+                    <option value="time4">1PM-2PM</option>
+                    <option value="time5">2PM-3PM</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    comments
+                </legend>
+                <textarea name="comments" id="message" required placeholder="feel free to leave a message!"></textarea>
+            </fieldset>
+
+            <!-- style your submit button on CSS -->
+            <input class="submit" type="submit" value="submit">
+        </form>
+    </div>
+
+    <footer>
+        <!-- not with DIV -->
+        &copy; web development || RL 2023
+    </footer>
+</body>
+
+</html>

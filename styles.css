@@ -1,0 +1,194 @@
+/* 
+    Author: Roxette Laude
+    Date: December 11, 2023
+    Assignment: Final Profile
+
+    External Style Sheet
+*/
+
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: hotpink;
+}
+
+header {
+    color: indigo;
+    font-size: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+    padding: 0 0 70px 0;
+    letter-spacing: 0.1em;
+    font-size: 35px;
+    margin: 0;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+nav a {
+    color: midnightblue;
+    padding: 120px;
+}
+
+nav a:visited {
+    color: midnightblue;
+}
+
+nav a:hover {
+    color: mediumpurple;
+}
+
+h1 {
+    font-size: 15px;
+    padding: 0;
+}
+
+.self-round-image {
+    border-radius: 50%;
+    margin-right: 40%;
+    height: 190px;
+}
+
+.self-round-image1 {
+    border-radius: 50%;
+    float: initial;
+    height: 190px;
+}
+
+/* body div style */
+.infotxt {
+    /* TEXT ON MY HOME PAGE */
+    color:darkred;
+    top: 25%;
+    left: 50%;
+    float: right;
+    position: absolute;
+    text-align: left;
+}
+
+/* main div style */
+.custom1 {
+    border-top: solid 2px rgb(70, 4, 70);
+    border-bottom: solid 2px rgb(70, 4, 70);
+    margin: 0 100px 20px;
+    background-color: bisque;
+    position: relative;
+    height: 430px;
+}
+/* main div style schedule.html */
+.custom2 {
+    border-top: solid 2px rgb(70, 4, 70);
+    border-bottom: solid 2px rgb(70, 4, 70);
+    background-color: bisque;
+    margin: 0 100px 20px;
+    position: relative;
+    height: 800px;
+}
+
+.custom3 {
+    border-top: solid 2px rgb(70, 4, 70);
+    border-bottom: solid 2px rgb(70, 4, 70);
+    margin: 0 100px 20px;
+    background-color: bisque;
+    position: relative;
+    height: 100%;
+}
+
+.custom4 {
+    text-align: left;
+    padding: 40px;
+    border-top:solid 2px rgb(70, 4, 70);
+    background-color:mediumpurple;
+    column-count: 2;
+    column-gap: 50px;
+    column-rule: 5px double rgb(92, 5, 126);
+}
+
+.custom4 > h2 {
+    font-size: 35px;
+}
+
+.custom4 > h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.custom4 > p {
+    font-size: x-small;
+}
+
+.custom4 > ul li {
+    font-size: x-small;
+}
+
+.custom5 {
+    background-color: hotpink;
+    padding: 5px;
+    text-align: center;
+}
+
+/* schedule.html */
+.infotxt1 {
+    color: midnightblue;
+    top: 35%;
+    left: 15%;
+    bottom: 5%;
+    float: left;
+    text-align: left;
+    position: absolute;
+}
+
+.infotxt2 {
+    color: midnightblue;
+    top: 15%;
+    bottom: 20%;
+    margin: 0 260px 30px;
+    text-align: center;
+}
+
+/* form style */
+legend {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: black;
+    background-color:lightpink;
+}
+
+label {
+    position: relative;
+}
+
+fieldset {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* schedule table style */
+.table, th, td {
+    border: 2px solid black;
+    border-width: 50%;
+}
+
+.submit {
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    background-color:magenta;
+    border: none;
+    color: midnightblue;
+}
+
+/* footer style */
+footer {
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
